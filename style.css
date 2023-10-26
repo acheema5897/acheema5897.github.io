@@ -1,14 +1,9 @@
 
-
-html {
-    height: 200%;
-    overflow-y: auto; /* hide; hides the vertical (y) scrollbar */
-    background-color: rgba(0, 0, 0, 1);
-}
-
 body {
+    background: rgba(213, 215, 217, 0.5);
     margin: 0;
     padding: 0;
+    Overflow-y: scroll; /* Hides vertical (y) scrollbar */
     height: 100%;
     background-size: cover;
 }
@@ -85,12 +80,16 @@ span.title {
 }
 
 .background {
-    
+    background-color: rgba(0, 0, 0, 1);
     width: 100%;
     height: 100%;
   
 }
 
+html {
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%
+}
 
 .no_outline {
     color: rgba(255, 255, 255);
@@ -116,12 +115,8 @@ span.title {
     color: red;
 }
 
-.container_image_one {
-    height: 600px;
-    width: 1000px;
-}
+.embed {
+    padding-left: 25rem;
+    
 
-.container_image_two {
-    height: 600px;
-    width: 1800px;
 }
